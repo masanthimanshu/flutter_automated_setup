@@ -1,0 +1,14 @@
+enum ApiEndpoints { baseUrl, verifyToken, refreshToken }
+
+String apiEndpoint(ApiEndpoints endpoint) {
+  switch (endpoint) {
+    case ApiEndpoints.baseUrl:
+      return "";
+
+    case ApiEndpoints.verifyToken:
+      return "";
+
+    case ApiEndpoints.refreshToken:
+      return "";
+  }
+}

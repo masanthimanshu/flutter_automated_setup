@@ -1,0 +1,13 @@
+import "package:flutter/material.dart";
+
+class {{SCREEN_TITLE}}Screen extends StatelessWidget {
+  const {{SCREEN_TITLE}}Screen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text("{{SCREEN_TITLE}}")),
+      body: const Center(child: Text("{{SCREEN_TITLE}} Screen")),
+    );
+  }
+}

@@ -1,0 +1,10 @@
+import "package:flutter/material.dart";
+import "package:google_fonts/google_fonts.dart";
+
+final ThemeData appTheme = ThemeData(
+  scaffoldBackgroundColor: Colors.white,
+  textTheme: GoogleFonts.openSansTextTheme(),
+  textButtonTheme: TextButtonThemeData(style: ButtonStyle()),
+  elevatedButtonTheme: ElevatedButtonThemeData(style: ButtonStyle()),
+  appBarTheme: AppBarTheme(centerTitle: false, scrolledUnderElevation: 0),
+);
